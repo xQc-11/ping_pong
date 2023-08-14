@@ -1,0 +1,66 @@
+body{
+    position: relative;
+}
+.game_box{
+    height: 90vh;
+    width: 80vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto auto;
+    position: relative;
+    text-align: center;
+}
+.upper{
+    width: 20vw;
+    height: 5vh;
+    border: 1px solid rgb(141, 76, 76);
+    background-color: rgb(141, 76, 76);
+    border-radius: 25px;
+    position: absolute;
+    top: 0%;
+    left: 37%;
+}
+.lower{
+    width: 20vw;
+    height: 5vh;
+    border: 1px solid rgb(11, 11, 55);
+    background-color: rgb(11, 11, 55);
+    border-radius: 25px;
+    position: absolute;
+    bottom: 0%;
+    left: 37%;
+}
+.ball{
+    height: 3vh;
+    width: 3vh;
+    border: 1px solid grey;
+    border-radius: 3vh;
+    background-color: rgba(19, 4, 4, 0.306);
+    position: absolute;
+    top: 48%;
+    left: 78%;
+}
+.score{
+    position: absolute;
+    height: 15vh;
+    width: 15vw;
+    font-weight: bolder;
+    font-size: 80px;
+    top: 10%;
+    left: 3%;
+}
+.hs{
+    position: absolute;
+    height: 15vh;
+    width: 15vw;
+    font-weight: bolder;
+    font-size: 80px;
+    top: 22%;
+    left: 3%;
+}
+.txt{
+    position: absolute;
+    font-weight: bolder;
+    top: 36%;
+    left: 2%;
+}
